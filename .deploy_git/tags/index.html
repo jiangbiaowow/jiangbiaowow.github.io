@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2016 | Hexo</title>
+  <title>tags | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2016/index.html">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="http://yoursite.com/tags/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description">
+<meta property="og:updated_time" content="2016-04-15T08:26:45.332Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="tags">
 <meta name="twitter:description">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -43,7 +44,7 @@
           animate: true,
           isHome: false,
           isPost: false,
-          isArchive: true,
+          isArchive: false,
           isTag: false,
           isCategory: false,
           open_in_new: false,
@@ -225,71 +226,192 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/04/14/HTML5/" class="archive-article-date">
-      <time datetime="2016-04-14T12:36:09.000Z" itemprop="datePublished">04-14</time>
+    <div class="article-meta">
+      <a href="/tags/index.html" class="article-date">
+      <time datetime="2016-04-15T08:26:45.000Z" itemprop="datePublished">2016-04-15</time>
 </a>
-        </div>
-         
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/04/14/HTML5/">HTML5</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      tags
     </h1>
   
 
-        <div class="article-info info-on-archive">
-          
+      </header>
+      
+      <div class="article-info article-info-post">
+        
 
-          
-        </div>
+        
         <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
+      </div>
+      
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/04/12/hello-world/" class="archive-article-date">
-      <time datetime="2016-04-12T10:13:21.765Z" itemprop="datePublished">04-12</time>
-</a>
-        </div>
-         
-        <div class="article-info info-on-archive">
+    <div class="article-entry" itemprop="articleBody">
+      
           
+              <style>
+    .article-meta {
+        display: none;
+    }
+    #container .article .article-title {
+        padding-right: 0;
+    }
+    .article-header {
+        padding: 0;
+        padding-top: 26px;
+        border-left: none;
+        text-align: center;
+    }
+    .article-header:hover {
+        border-left: none;
+    }
+    .article-title {
+        font-size: 1.6em
+    }
+    .article-meta {
+        display: none;
+    }
+    .article-entry hr {
+        margin: 0;
+    }
+    #container .article-info-post.article-info {
+      display: none;
+      }
+    #container .article .article-title {
+    padding: 0;
+    }
+</style>
+
+
+    <!-- Tag Cloud Page -->
+    <hr>
+    <br>
+    
+
+    <p class="count"></p>
+
+    <div class="tags">
+        
+    </div>
+    <style>
+        .category-list li{
+            display: inline-block;
+            margin: 0 1em .5em 0;
+            padding: 4px;
+            border: 1px solid lightgray;
+            font-size: 1.2rem;
+        }
+        .category-list a {
+            color: gray;
+        }
+        .category-list-item:hover a {
+            color: gray;
+            text-decoration: none;
+        }
+        .category-list-count {
+            margin-left: 2px;
+            font-size: .9rem;
+        }
+        .article-entry ul li:before{
+            display: none;
+        }
+        .article-inner  {
+            text-align: center;
+        }
+        .tags {
+            max-width: 40em;
+            margin: 2em auto;
+            margin-top: 0em;
+        }
+        .tags a {
+            margin-right: 1em;
+            line-height: 65px;
+            border-bottom: 1px solid gray;
+            white-space: nowrap;
+        }
+        .tags a:hover {
+            border-bottom: 2px solid black;
+            text-decoration: none;
+            font-style: italic;
+        }
+        #count > span {
+            margin: auto .2em;
+            font-weight: bold;
+        }
+    </style>
+
+    <!-- Count tags and categories -->
+    <p id="count">
+            已有<span><script>document.write($(".category-list-item").length)</script></span>个分类，
+            共计<span><script>document.write($(".tags > a").length)</script></span>个标签。
+    </p>
+    <script>
+        $('#count').appendTo('.count');
+    </script>
+
 
           
-        </div>
-        <div class="clearfix"></div>
-    </header>
+        
+      
+    </div>
+    
   </div>
+  
+    
+
+
+  
 </article>
-  
-  
-    </div></section>
-  
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <li id="bds_twi"><a href="#" class="bds_twi" data-cmd="twi" title="分享到推特"></a></li>
+            <li id="bds_tsina"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a></li>
+            <li id="bds_sqq"><a href="#" class="bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a></li>
+            <li id="bds_copy"><a href="#" class="bds_copy" data-cmd="copy" title="复制网址"></a></li>
+            <li id="bds_mail"><a href="#" class="bds_mail" data-cmd="mail" title="通过邮件分享"></a></li>
+            <li id="bds_weixin"><a href="#" class="bds_weixin" data-cmd="weixin" title="生成文章二维码"></a></li>
+            <li id="bds_more"><a href="#" class="bds_more" data-cmd="more"></i></a></li>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"tags　| Hexo　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
 
     
 
+
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
